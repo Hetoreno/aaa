@@ -1,0 +1,86 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    /* font-size:62.5%; */
+    font-family:'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-name{
+    font-family: 'Lobster', cursive;
+}
+
+/* Navigation Start */
+.headi{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:70%;
+    margin: auto;
+    min-height: 10vh;
+    background: red;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.topics{
+    margin:1rem;
+}
+
+ul a{
+    color:white;
+}
+
+.logo{
+    background: linear-gradient(#E557D7 , #FFD39E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-name{
+    font-size: 2rem;
+}
+
+
+/* Navigation End */
+
+/* Intro Start */
+.intro{
+    min-height:100vh;
+    background:linear-gradient(rgba(0,0,0,0.4), transparent) , url(./Images/sterling-davis-4iXagiKXn3Y-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Intro End */
+
+/* About Start */
+/* About End */
+
+/* Locations Start */
+/* Locations End */
+
+/* Events Start */
+/* Events End */
+
+/* Gallery Start */
+/* Gallery End */
+
+/* Footer Start */
+/* Footer End */
